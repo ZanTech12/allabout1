@@ -8,5 +8,8 @@ if (!process.env.EMAIL_PASS) process.env.EMAIL_PASS = "lfwczhfiymxgdcdp";
 if (!process.env.ADMIN_EMAIL) process.env.ADMIN_EMAIL = "bishopafoo@gmail.com";
 if (!process.env.FRONTEND_URL) process.env.FRONTEND_URL = "http://localhost:3000";
 if (!process.env.RESEND_API_KEY) process.env.RESEND_API_KEY="re_MfoF8hKm_F3E29Q9NxzgpCLUjxNvhbakj"
-if (!process.env.ENGINEER_INVITE_CODE) process.env.ENGINEER_INVITE_CODE="eng2024mallhub"
+if (!process.env.ENGINEER_INVITE_CODE) process.env.ENGINEER_INVITE_CODE="eng2024mallhub";
+if (!process.env.CLOUDINARY_CLOUD_NAME) process.env.CLOUDINARY_CLOUD_NAME="db9cy92au";
+if (!process.env.CLOUDINARY_API_KEY) process.env.CLOUDINARY_API_KEY="234947822885619";
+if (!process.env.CLOUDINARY_API_SECRET) process.env.CLOUDINARY_API_SECRET="NOJzLThTZ4Q9SQq1f0ToIdDzFRw"
 // REMOVE the PORT line completely! Let Render handle it automatically.
