@@ -1,6 +1,6 @@
 // setEnv.js
 // Only set these if they are not already provided by the hosting environment (like Render)
-if (!process.env.MONGO_URI) process.env.MONGO_URI = "mongodb+srv://zannuadedeji_db_user:Adedeji123@sulaitek.dmad8xs.mongodb.net/?appName=sulaitek";
+if (!process.env.MONGO_URI) process.env.MONGO_URI = "mongodb://localhost:27017/market";
 if (!process.env.JWT_SECRET) process.env.JWT_SECRET = "my_super_secret_key_change_this_to_something_random_123456789!@#";
 if (!process.env.NODE_ENV) process.env.NODE_ENV = "development";
 if (!process.env.EMAIL_USER) process.env.EMAIL_USER = "dontechiel@gmail.com";
